@@ -4,7 +4,21 @@
 ### write and development by **kafnfie** 
 model kit is a machine learning model creation tool built on scikit-learn py. This model is intended for beginners who want to create a simple machine learning model
 
-# Model Random Forest Regressor
+# Introduction
+* Create venv
+```
+python -m venv ./venv
+```
+* start and run venv
+```
+venv/scripts/activate
+```
+* install package
+```
+pip install pandas, numpy, scikit-learn
+```
+---
+# 1. Model Random Forest Regressor
 ## understanding
 Random forest regression is a supervised learning algorithm and bagging technique that uses an ensemble learning method for regression in machine learning. The trees in random forests run in parallel, meaning there is no interaction between these trees while building the trees.
 
