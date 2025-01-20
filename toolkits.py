@@ -40,8 +40,4 @@ class RandomForestModel:
         hasil_prediksi = self.model.predict(new_data_scaled)
         return float(hasil_prediksi)
 
-# random_forest = RandomForestModel('dataset.csv', ['Tahun', 'Luas Panen', 'Curah hujan', 'Kelembapan', 'Suhu rata-rata'])
-# random_forest.create_model(n_estimators=100, random_state=42)
-# random_forest.train_model()
-# hasil = random_forest.predict([2023, 1500, 200, 75, 28])
-# print("Hasil prediksi produksi:", hasil)
+#For now there is only one model (:
